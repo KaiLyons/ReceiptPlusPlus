@@ -15,15 +15,16 @@ int buP = 1.5;
 int main();
 
 int num;
-int one = mP * items[0];
-int two = eP * items[1];
-int thr = fP * items[2];
-int fou = brP * items[3];
-int fiv = buP * items[4];
-
-int total = one + two + thr + fou + fiv;
 
 int checkout(){
+    // Calculate
+    int one = mP * items[0];
+    int two = eP * items[1];
+    int thr = fP * items[2];
+    int fou = brP * items[3];
+    int fiv = buP * items[4];
+
+    int total = one + two + thr + fou + fiv;
     cout <<
     "Milk : " << items[0] << "   | Price : $" << one << endl <<
     "Eggs : " << items[1] << "   | Price : $" << two << endl <<
@@ -36,6 +37,12 @@ int checkout(){
 }
 
 int list(){
+    // Calculate
+    int one = mP * items[0];
+    int two = eP * items[1];
+    int thr = fP * items[2];
+    int fou = brP * items[3];
+    int fiv = buP * items[4];
     cout <<
     "Milk : " << items[0] << "   | Price : $" << one << endl <<
     "Eggs : " << items[1] << "   | Price : $" << two << endl <<
