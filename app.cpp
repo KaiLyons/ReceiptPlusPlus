@@ -45,6 +45,7 @@ int list(){
     << endl <<
     "Is this good? [Y/n]";
     string opt;
+    cin >> opt;
 
     if (opt == "y" || opt == "Y"){
         checkout();
